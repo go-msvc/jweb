@@ -1,0 +1,6 @@
+<h1>{{.header}}</h1>
+<ul>
+{{range .options}}
+    <li><a href="/choose/{{.step_id}}/{{.id}}">{{.text}}</a></li>
+{{end}}
+</ul>
